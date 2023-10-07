@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS utilisateur(
+    id SERIAL PRIMARY KEY,
+    nom VARCHAR(50),
+    mdp VARCHAR(255)
+);
